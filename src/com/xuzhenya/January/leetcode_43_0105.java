@@ -9,6 +9,6 @@ package com.xuzhenya.January;
  */
 public class leetcode_43_0105 {
     public String multiply(String num1, String num2) {
-
+        return null;
     }
 }
