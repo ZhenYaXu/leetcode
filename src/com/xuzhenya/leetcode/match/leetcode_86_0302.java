@@ -11,6 +11,6 @@ import com.xuzhenya.leetcode.november.ListNode;
  */
 public class leetcode_86_0302 {
     public ListNode partition(ListNode head, int x) {
-
+        return head;
     }
 }
