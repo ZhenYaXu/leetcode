@@ -21,9 +21,15 @@ public class offer_68_0325 {
         return root;
     }
 
+    // 寻找以root为根节点的 p , q 的最近公共祖先
     public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null)   return null;
         if (root == p || root == q) return root;
 
+        TreeNode left = lowestCommonAncestor1(root.left, p, q);
+        TreeNode right = lowestCommonAncestor1(root.right, p, q);
+        if (left != null && right != null)  return root;
+        else if (left == null)  return right;
+        else return left;
     }
 }
