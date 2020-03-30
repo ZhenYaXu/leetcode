@@ -7,7 +7,7 @@ package com.xuzhenya.leetcode.match;
  * @author: xuzhenya
  * @date: 2020.03.06
  */
-public class leetcode_0306_57 {
+public class leetcode_57_0306 {
 //    public int[][] findContinuousSequence(int target) {
 //        List<List<Integer>> ans = new ArrayList<>();
 //        int n = 1;

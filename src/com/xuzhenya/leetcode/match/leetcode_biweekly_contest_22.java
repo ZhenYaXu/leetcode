@@ -75,11 +75,11 @@ public class leetcode_biweekly_contest_22 {
         else  return step(x * 3 + 1) + 1;
     }
 
-    public int maxSizeSlices(int[] slices) {
-        if (slices.length == 1) return slices[0];
-
-        for (int i = 0; i < slices.length; i++) {
-
-        }
-    }
+//    public int maxSizeSlices(int[] slices) {
+//        if (slices.length == 1) return slices[0];
+//
+//        for (int i = 0; i < slices.length; i++) {
+//
+//        }
+//    }
 }
